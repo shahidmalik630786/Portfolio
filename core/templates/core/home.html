@@ -1,0 +1,39 @@
+{% extends 'core/base.html' %}
+{% load static %}
+{% block content %}
+<div class=" text-white">
+    <div class="text-center ">
+        <img class=" mt-5 img-thumbnail" width="200px" height="50px" src="{% static 'core/img/logo1.jpg' %}"
+            alt="profile photo">
+    </div>
+    <div class="text-justify mx-2 mt-4 mb-5">
+        <h1 class="fw-bold text-light" style="font-family: 'Cabin', sans-serif;font-family: 'Roboto', sans-serif;
+        font-family: 'Satisfy', cursive;">Hello!</h1>
+        <div class="px-4" style="line-height:2rem;">
+            <p style="text-indent: 100px;">I'm<b class="text-warning">
+                 Shahid,</b> a passionate Odoo and Django developer at GlobalTecks. 
+                With a solid foundation in Information Technology, I have dedicated countless 
+                hours to honing my skills and expanding my expertise in various technologies. 
+                My commitment to excellence has driven me to become proficient in Python, Django,
+                MySQL, JavaScript, HTML, and CSS.
+            </p>
+            
+            <p>
+                I hold a Bachelor's degree in Information Technology, equipping me with a strong 
+                academic background. Currently, I am pursuing a Master's in Information Technology, 
+                further deepening my understanding of cutting-edge technologies and their applications.
+            </p>
+            <p>
+                Beyond my role at GlobalTecks, I've also ventured into the world of freelancing. 
+                This experience has not only allowed me to diversify my skill set but has also provided 
+                me with a broader perspective on solving unique challenges for clients across different industries.
+            </p>
+        </div>
+        <!-- <div class="text-center mt-5"><a class="btn btn-outline-warning mr-3" href="">Projects</a>
+            <a class="btn btn-outline-info my-3 mx-5" href="">Hire Me</a>
+        </div> -->
+    </div>
+</div>
+
+{% endblock %}
+
